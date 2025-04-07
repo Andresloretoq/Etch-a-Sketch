@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh; /* más flexible que height fija */
+    margin: 0;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+.hover {
+    border: 1px solid #ccc; /* 👈 Esto es el borde visible */
+    background-color: white;
+    box-sizing: border-box; /* 👈 Evita que el borde rompa el layout */
+  }
+  
